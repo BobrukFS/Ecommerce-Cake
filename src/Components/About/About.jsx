@@ -9,7 +9,7 @@ function About() {
             <p className='paragraph-font fs-5'>Nuestro objetivo es ofrecer manualidades exquisitas y originales que hagan que tus momentos sean inolvidables</p>
         </div>
         <div className='row d-flex align-items-start'>
-            <img className='my-4 my-lg-0 col-lg-6' src="assets/about.png" alt="" />
+            <img className='my-4 my-lg-0 col-lg-6' src="./about.png" alt="" />
             <div className='col-lg-6 py-4'>
  
                 <p className='paragraph-font fs-5'>En Tiempo de Fantasia, nos especializamos en ofrecer manualidades personalizadas para una amplia variedad de eventos.</p>

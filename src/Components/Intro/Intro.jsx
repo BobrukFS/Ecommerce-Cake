@@ -16,7 +16,7 @@ function Intro() {
             </div>
           </div>
           <div className='bg-white p-0  h-50 d-flex align-items-end col-lg-6 h-lg-100'>
-            <img className="w-100 p-0 imagen" src="assets/Inicio.png" alt="Inicio imagen" />
+            <img className="w-100 p-0 imagen" src="./Inicio.png" alt="Inicio imagen" />
           </div>
         </div>
       </div>
