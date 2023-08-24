@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'MiFuente'; /* Nombre de la fuente */
+  src: url('src/assets/MervaleScript-Regular.ttf') format('truetype'); /* Ruta al archivo TTF */
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+$theme-colors: (
+  "primary": #ff9f9a,
+  "secondary": #442c2e,
+  "terciary": #ffcd6e,
+  "danger": #ce1313,
+  "warning": #fe4949,
+);
+
+$display-font-sizes: (
+  1: 5rem,
+  2: 4.5rem,
+  3: 4rem,
+  4: 3.5rem,
+  5: 3rem,
+  6: 2.5rem
+);
+
+
+.titles-font {
+  font-family: 'Playfair Display';
+}
+
+.paragraph-font {
+  font-family: 'Lora';
+}
+
+.cursiva{
+  font-family: 'MiFuente';
+}
+
+.h-lg-100{
+  @media (min-width: 998px) { 
+    min-height: 100vh;
+  }
+}
+
+
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+

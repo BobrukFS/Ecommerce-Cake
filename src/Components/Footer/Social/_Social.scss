@@ -1,0 +1,15 @@
+.social{
+  max-width: fit-content;
+ 
+
+    &::after{
+        content: "";
+        width: .2rem;
+        height: 4rem;
+        background-color: rgb(168, 76, 76);
+        position: absolute;
+        bottom: -1.5rem;
+        left: 50%;
+   
+    }
+}

@@ -1,0 +1,39 @@
+.intro{
+    &__desc{
+        max-width: 555px;
+    }
+    
+    &__btn{
+        max-width: 280px;
+  
+        &::after{
+            position: absolute;
+            content: "";
+            width: 100%;
+            height: 100%;
+            border-radius: 2rem;
+            border: 1px solid #ce1313;
+            background-color: #fe4949;
+            left: 0;
+            z-index: -1;
+            bottom: -.5rem;
+        }
+    }
+
+    &__cursiva{
+        font-size: clamp(3rem,4vw, 4rem);
+        bottom:-1rem;
+        margin-left: .5rem;
+    }
+
+    .imagen{
+    
+        max-height: 40vh;
+    }
+
+    @media (min-width: 998px) { 
+        .imagen{
+            max-height: 100vh;
+        }
+    }
+}

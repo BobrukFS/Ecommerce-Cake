@@ -1,0 +1,23 @@
+//Settings
+@use 'src/Styles/_custom-bootstrap.scss';
+@use 'src/Styles/_normalize.scss';
+
+
+
+//Components
+//Header
+@use 'src/Components/Header/_Header.scss';
+//intro
+@use 'src/Components/Intro/_Intro.scss';
+//About
+@use 'src/Components/About/_About.scss';
+//Contact
+@use 'src/Components/Contact/_Contact.scss';
+//Footer
+@use 'src/Components/Footer/Social/_Social.scss';
+@use 'src/Components/Footer/AsideSection/_AsideSection.scss';
+@use 'src/Components/Footer/_Footer.scss';
+//Tienda
+@use 'src/Components/Tienda/_Tienda.scss';
+//Global
+
