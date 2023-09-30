@@ -35,5 +35,10 @@
         .imagen{
             max-height: 100vh;
         }
+
+        &__btn{
+            min-width: 40rem;
+            max-width: 40rem;
+        }
     }
 }
