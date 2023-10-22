@@ -12,3 +12,24 @@
     max-width: 260px;
    
 }
+
+.title-categoria{
+    position: relative;
+    span{
+        position: relative;
+        content: "";
+        width: 10%;
+        height: .2rem;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .circulos{
+        position: relative;
+        content: "";
+        border-radius: 50%;
+        width: .7rem;
+        height: .6rem;
+        background-color: rgb(255, 255, 255);
+    }
+}
+

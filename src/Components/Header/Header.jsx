@@ -19,7 +19,7 @@ function Header() {
   return (
     <>
         <div className=' px-4 header container-fluid d-flex w-100 align-items-center justify-content-between p-2 position-absolute   top-0 start-0 px-lg-5'>
-        <p className='fs-1 cursiva ms-1 my-0'>Sweet<span className='text-terciary'>Cake</span></p>
+        <Link to="/" className="link-logo"><p className='fs-1 cursiva ms-1 my-0'>Sweet<span className='text-terciary'>Cake</span></p></Link>
         <div className="box z-3 d-md-none">
                 <div className="btn1  not-active d-block d-lg-none bg-primary border border-danger position-relative" onClick={abrirMenu}>
                   <span></span>
@@ -34,8 +34,8 @@ function Header() {
                 <Link className=' text-decoration-none mb-4 mb-md-0 mx-md-3 fs-3 paragraph-font' to="/Tienda">Tienda</Link>
               </div>
                 <div className='d-flex flex-column flex-md-row align-items-center'>
-                <Link className=' text-decoration-none mb-4 mb-md-0 mx-md-3 fs-3 paragraph-font' to="/">Iniciar Sesion</Link>
-                <Link className="carrito position-relative d-flex bg-primary border border-danger"><i className="bi bi-cart3 text-white fs-1"></i></Link>
+                <Link className=' text-decoration-none mb-4 mb-md-0 mx-md-3 fs-4 paragraph-font' to="/">Iniciar Sesion</Link>
+                <Link className="carrito position-relative d-flex bg-primary border border-danger"><i className="bi bi-cart3 text-white fs-4"></i></Link>
                 </div>
                 
             </nav>
