@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, HashRouter } from "react-router-dom";
 import Footer from "./Components/Footer/Footer";
 import "bootstrap/dist/css/bootstrap.css";
 import "./Styles/_custom-bootstrap.scss";
@@ -22,7 +22,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
      <ProductosProvider>
       <CarritoProvider>
       
-    <Router>
+    <HashRouter>
       
       <Header></Header>
  
@@ -37,7 +37,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         </Routes>
     
       <Footer></Footer>
-    </Router>
+    </HashRouter>
     
     </CarritoProvider>
     </ProductosProvider>
