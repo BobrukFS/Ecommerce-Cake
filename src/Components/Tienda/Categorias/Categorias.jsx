@@ -26,7 +26,7 @@ const Categorias = ({ setCategoriaSeleccionada, categoriaSeleccionada }) => {
         {categorias.map((element, index) => {
           return (
             <div key={index} className="d-flex align-items-center gap-3 justify-content-start item-categoria">
-              <img className="imgCategorias" src={`public/${element}.png`} alt="" />
+              <img className="imgCategorias" src={`./public/${element}.png`} alt="" />
               <li
                 
                 className={categoriaSeleccionada === element ? "selected" : ""}

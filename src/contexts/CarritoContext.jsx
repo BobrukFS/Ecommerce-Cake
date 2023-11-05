@@ -9,7 +9,6 @@ const CarritoContext = createContext()
 
 // ! 2da -> El armado del Provider
 
-const url = "http://localhost:3000/carrito"
 
 const CarritoProvider = ( { children } ) => {
     // ESTADO

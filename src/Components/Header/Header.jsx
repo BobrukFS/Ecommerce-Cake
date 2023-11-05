@@ -71,6 +71,12 @@ function Header() {
             </Link>
           </div>
           <div className="d-flex flex-column flex-md-row align-items-center">
+          <Link
+              className=" text-decoration-none mb-4 mb-md-0 mx-md-3 fs-4 paragraph-font"
+              to="/alta" 
+            >
+              Alta
+            </Link>
             <Link
               className=" text-decoration-none mb-4 mb-md-0 mx-md-3 fs-4 paragraph-font"
               to="/login" onClick={abrirMenu}
