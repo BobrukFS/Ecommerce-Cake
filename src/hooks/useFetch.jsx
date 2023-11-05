@@ -6,7 +6,7 @@ const useFetch = (url) => {
     const [data, setData] = useState();
 
     useEffect(() => {
-        fetch(url)
+      fetch(url)
           .then((response) => {
             if (response.ok) {
               return response.json();

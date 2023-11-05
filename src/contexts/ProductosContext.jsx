@@ -9,7 +9,7 @@ import axios from "axios";
 /* 1er -> Creación del contexto */
 const ProductosContext = createContext()
 /* 2do -> El armado del Provider */
-const url = "https://json-server-hgvvvycyb-bobrukfs.vercel.app/tienda"
+const url = "https://json-server-1m89.onrender.com/tienda"
 
 
 const ProductosProvider = ( { children } ) => {
