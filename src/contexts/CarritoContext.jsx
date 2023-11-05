@@ -9,7 +9,7 @@ const CarritoContext = createContext()
 
 // ! 2da -> El armado del Provider
 
-const url = import.meta.env.VITE_ENDPOINT_CARRITO
+const url = "http://localhost:3000/carrito"
 
 const CarritoProvider = ( { children } ) => {
     // ESTADO

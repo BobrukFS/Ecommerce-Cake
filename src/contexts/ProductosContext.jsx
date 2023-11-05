@@ -9,7 +9,7 @@ import axios from "axios";
 /* 1er -> Creación del contexto */
 const ProductosContext = createContext()
 /* 2do -> El armado del Provider */
-const url = import.meta.env.VITE_ENDPOINT_PRODUCTOS
+const url = "https://json-server-hgvvvycyb-bobrukfs.vercel.app/tienda"
 
 
 const ProductosProvider = ( { children } ) => {
