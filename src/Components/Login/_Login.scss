@@ -1,0 +1,24 @@
+.login{
+
+    min-height: 100vh;
+   
+   &__intro{
+    padding-top: 80px;
+  
+   }
+}
+
+.parrafo-login{
+    color: rgb(221, 221, 221);
+}
+
+@media (min-width: 998px) { 
+    .login{
+
+        &__intro{
+            min-height: 100%;
+            max-height: 100%;
+        }
+        
+    }
+}

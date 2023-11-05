@@ -7,6 +7,7 @@
 //Components
 //Header
 @use 'src/Components/Header/_Header.scss';
+@use 'src/Components/Header/CarritoLista/_CarritoLista.scss';
 //intro
 @use 'src/Components/Intro/_Intro.scss';
 //About
@@ -19,5 +20,20 @@
 @use 'src/Components/Footer/_Footer.scss';
 //Tienda
 @use 'src/Components/Tienda/_Tienda.scss';
+@use 'src/Components/Tienda/Categorias/_Categorias.scss';
+@use 'src/Components/Tienda/Card/_Card.scss';
+
+//Carrito
+@use 'src/Components/Carrito/_Carrito.scss';
+@use 'src/Components/Carrito/InfoCarrito/_InfoCarrito.scss';
+
+//Login
+
+@use 'src/Components/Login/_Login.scss';
+@use 'src/Components/Login/LoginRegister/_LoginRegister.scss';
+
+//Alta
+@use 'src/Components/Alta/_Alta.scss';
+@use 'src/Components/Alta/ProductoEdit/_ProductoEdit.scss';
 //Global
 

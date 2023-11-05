@@ -1,0 +1,51 @@
+.checkout{
+    margin-top: 80px;
+    min-height: calc(100vh - 80px);
+}
+
+.carrito-td{
+  max-width: 450px;
+}
+
+.img-carrito{
+
+    width: 25%;
+    max-width: 350px;
+    border-radius: .5rem;
+  }
+  
+  .carrito-precio{
+    font-size: 10px;
+  }
+
+  .bg-visa{
+    background-color: #3e5f8a;
+  }
+
+  .btn-cantidad{
+    border: none;
+
+  }
+
+  .total-carrito{
+    color: rgb(104, 64, 12);
+  }
+
+  .container-btns-carrito{
+  
+    width: fit-content;
+    min-width: 70px;
+
+    &::after{
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 100%;
+      border-radius: 2rem;
+      border: 1px solid #ce1313;
+      background-color: #fe4949;
+      left: 0;
+      z-index: -2;
+      bottom: -.4rem;
+  }
+  }

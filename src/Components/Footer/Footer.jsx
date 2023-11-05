@@ -8,7 +8,7 @@ function Footer() {
       <div className='row'>
   
       <div className='footer__intro mb-4 col-lg-4'>
-        <p className='text-primary fs-3 m-0 titles-font'>Tiempo de Fantasia</p>
+        <p className='text-primary fs-3 m-0 titles-font'>SweetCake</p>
         <p className='text-white fs-6 m-0 paragraph-font w-100'>Somos una empresa de pasteles dedicados para todo tipo de eventos, realizamos productos de primera calidad</p>
       </div>
     <div className='footer__sections  justify-content-between align-items-center d-flex flex-column row-gap-5 flex-sm-row align-items-sm-start gap-sm-5 col-lg-8'>

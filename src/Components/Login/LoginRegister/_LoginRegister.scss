@@ -1,0 +1,38 @@
+.loginRegister{
+    padding: 20px;
+    
+
+    input::placeholder{
+        color: white;
+        font-weight: bold;
+    }
+
+    .btn1{
+      border-radius: 20px;
+      min-width: 100%;
+
+    
+
+      &::after{
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+        border: 1px solid #ce1313;
+        background-color: #fe4949;
+        left: 0;
+        z-index: -1;
+        bottom: -.4rem;
+    }
+    }
+}
+
+
+@media (min-width: 998px) { 
+    .loginRegister{
+        padding-top: 80px;
+        min-height: 100vh;
+        max-height: 100vh;
+    } 
+}

@@ -1,32 +1,147 @@
 {
-    "pasteles": [
-        {
-            "titulo": "Carrot cake",
-            "descripcion": "Deléitese con la delicia clásica de nuestros pasteles de zanahoria, disponibles para entrega en Melbourne, y experimente una combinación perfecta de capas húmedas de especias y glaseado cremoso de queso crema.",
-            "precio": 1600,
-            "img": "https://cakerun.com.au/wp-content/uploads/2022/09/whole-carrot-cake.webp",
-            "id": 1
-        },
-        {
-            "titulo": "Carrot cake",
-            "descripcion": "Deléitese con la delicia clásica de nuestros pasteles de zanahoria, disponibles para entrega en Melbourne, y experimente una combinación perfecta de capas húmedas de especias y glaseado cremoso de queso crema.",
-            "precio": 1600,
-            "img": "https://cakerun.com.au/wp-content/uploads/2022/09/whole-carrot-cake.webp",
-            "id": 1
-        },
-        {
-            "titulo": "Carrot cake",
-            "descripcion": "Deléitese con la delicia clásica de nuestros pasteles de zanahoria, disponibles para entrega en Melbourne, y experimente una combinación perfecta de capas húmedas de especias y glaseado cremoso de queso crema.",
-            "precio": 1600,
-            "img": "https://cakerun.com.au/wp-content/uploads/2022/09/whole-carrot-cake.webp",
-            "id": 1
-        },
-        {
-            "titulo": "Carrot cake",
-            "descripcion": "Deléitese con la delicia clásica de nuestros pasteles de zanahoria, disponibles para entrega en Melbourne, y experimente una combinación perfecta de capas húmedas de especias y glaseado cremoso de queso crema.",
-            "precio": 1600,
-            "img": "https://cakerun.com.au/wp-content/uploads/2022/09/whole-carrot-cake.webp",
-            "id": 1
-        }
-    ]
+  "tienda": [
+    {
+      "titulo": "Carrot cake",
+      "descripcion": "Deléitese con la delicia clásica de nuestros pasteles de zanahoria, disponibles para entrega en Melbourne, y experimente una combinación perfecta de capas húmedas de especias y glaseado cremoso de queso crema.",
+      "precio": "2000",
+      "categoria": "Pasteles",
+      "img": "https://cakerun.com.au/wp-content/uploads/2022/09/whole-carrot-cake.webp",
+      "id": 1,
+      "stock": 10
+    },
+    {
+      "titulo": "Raffaelo Cake",
+      "descripcion": "Deléitese con la delicia clásica de nuestros pasteles de zanahoria, disponibles para entrega en Melbourne, y experimente una combinación perfecta de capas húmedas de especias y glaseado cremoso de queso crema.",
+      "precio": 1800,
+      "categoria": "Pasteles",
+      "img": "https://cakerun.com.au/wp-content/uploads/2022/09/Whole-Cake-Raffaello-300x225.webp",
+      "id": 2,
+      "stock": 10
+    },
+    {
+      "titulo": "Ferrero Rocher Cake",
+      "descripcion": "Deléitese con la delicia clásica de nuestros pasteles de zanahoria, disponibles para entrega en Melbourne, y experimente una combinación perfecta de capas húmedas de especias y glaseado cremoso de queso crema.",
+      "precio": 1600,
+      "categoria": "Pasteles",
+      "img": "https://cakerun.com.au/wp-content/uploads/2022/10/Whole-Cake-Ferrero-Rocher-Cake-Melbourne-Delivery-300x225.webp",
+      "id": 3,
+      "stock": 10
+    },
+    {
+      "titulo": "Blueberry Cheesecake",
+      "descripcion": "Deléitese con la delicia clásica de nuestros pasteles de zanahoria, disponibles para entrega en Melbourne, y experimente una combinación perfecta de capas húmedas de especias y glaseado cremoso de queso crema.",
+      "precio": 1800,
+      "categoria": "Pasteles",
+      "img": "https://cakerun.com.au/wp-content/uploads/2022/09/Whole-Cake-Blueberry-Cheesecake-300x225.webp",
+      "id": 4,
+      "stock": 10
+    },
+    {
+      "titulo": "Vegan Chocolate Cake",
+      "descripcion": "Deléitese con la delicia clásica de nuestros pasteles de zanahoria, disponibles para entrega en Melbourne, y experimente una combinación perfecta de capas húmedas de especias y glaseado cremoso de queso crema.",
+      "precio": 2200,
+      "categoria": "Vegan",
+      "img": "https://cakerun.com.au/wp-content/uploads/2022/09/Whole-Cake-Chocolate-Vegan-300x225.jpg.webp",
+      "id": 5,
+      "stock": 10
+    },
+    {
+      "titulo": "New York Cheesecake",
+      "descripcion": "Deléitese con la delicia clásica de nuestros pasteles de zanahoria, disponibles para entrega en Melbourne, y experimente una combinación perfecta de capas húmedas de especias y glaseado cremoso de queso crema.",
+      "precio": 1600,
+      "categoria": "Pasteles",
+      "img": "https://cakerun.com.au/wp-content/uploads/2022/09/Whole-Cake-New-York-Cheese-Cake-300x225.webp",
+      "id": 6,
+      "stock": 10
+    },
+    {
+      "titulo": "Baked Ricotta Cheesecake",
+      "descripcion": "Deléitese con la delicia clásica de nuestros pasteles de zanahoria, disponibles para entrega en Melbourne, y experimente una combinación perfecta de capas húmedas de especias y glaseado cremoso de queso crema.",
+      "precio": 1600,
+      "categoria": "Pasteles",
+      "img": "https://cakerun.com.au/wp-content/uploads/2022/09/Whole-Cake-Baked-Ricotta-Cheese-300x225.webp",
+      "id": 7,
+      "stock": 10
+    },
+    {
+      "titulo": "Chocolate Mud Cake",
+      "descripcion": "Deléitese con la delicia clásica de nuestros pasteles de zanahoria, disponibles para entrega en Melbourne, y experimente una combinación perfecta de capas húmedas de especias y glaseado cremoso de queso crema.",
+      "precio": 2200,
+      "categoria": "Pasteles",
+      "img": "https://cakerun.com.au/wp-content/uploads/2022/09/Whole-Cake-Chocolate-Mud-300x225.jpg.webp",
+      "id": 8,
+      "stock": 10
+    },
+    {
+      "titulo": "Chocolate Truffle Cake",
+      "descripcion": "Deléitese con la delicia clásica de nuestros pasteles de zanahoria, disponibles para entrega en Melbourne, y experimente una combinación perfecta de capas húmedas de especias y glaseado cremoso de queso crema.",
+      "precio": 2200,
+      "categoria": "Pasteles",
+      "img": "https://cakerun.com.au/wp-content/uploads/2022/09/Whole-Cake-Chocolate-Truffle-300x225.webp",
+      "id": 9,
+      "stock": 10
+    },
+    {
+      "titulo": "Pre-Sliced Vegan Chocolate Cake",
+      "descripcion": "Deléitese con la delicia clásica de nuestros pasteles de zanahoria, disponibles para entrega en Melbourne, y experimente una combinación perfecta de capas húmedas de especias y glaseado cremoso de queso crema.",
+      "precio": 2400,
+      "categoria": "Vegan",
+      "img": "https://cakerun.com.au/wp-content/uploads/2022/09/Pre-Sliced-Vegan-Chocolate-Cake-300x225.jpg.webp",
+      "id": 10,
+      "stock": 10
+    },
+    {
+      "titulo": "Pre-Sliced Vanilla Sponge y Raspberry Cake",
+      "descripcion": "Deléitese con la delicia clásica de nuestros pasteles de zanahoria, disponibles para entrega en Melbourne, y experimente una combinación perfecta de capas húmedas de especias y glaseado cremoso de queso crema.",
+      "precio": 2400,
+      "categoria": "Sliced",
+      "img": "https://cakerun.com.au/wp-content/uploads/2022/09/Pre-Sliced-Vanilla-Raspberry-Cake-300x225.jpg.webp",
+      "id": 11,
+      "stock": 10
+    },
+    {
+      "titulo": "Pre-Sliced Blueberry Cheesecake",
+      "descripcion": "Deléitese con la delicia clásica de nuestros pasteles de zanahoria, disponibles para entrega en Melbourne, y experimente una combinación perfecta de capas húmedas de especias y glaseado cremoso de queso crema.",
+      "precio": 2400,
+      "categoria": "Sliced",
+      "img": "https://cakerun.com.au/wp-content/uploads/2022/09/Pre-Sliced-Bluberry-Cheesecake-300x225.jpg.webp",
+      "id": 12,
+      "stock": 10
+    },
+    {
+      "titulo": "Pre-Sliced New York Cheesecake",
+      "descripcion": "Deléitese con la delicia clásica de nuestros pasteles de zanahoria, disponibles para entrega en Melbourne, y experimente una combinación perfecta de capas húmedas de especias y glaseado cremoso de queso crema.",
+      "precio": 2400,
+      "categoria": "Sliced",
+      "img": "https://cakerun.com.au/wp-content/uploads/2022/09/Pre-Sliced-New-York-Cheesecake-300x225.jpg.webp",
+      "id": 12,
+      "stock": 10
+    },
+    {
+      "titulo": "Pre-Sliced Carrot Cake",
+      "descripcion": "Deléitese con la delicia clásica de nuestros pasteles de zanahoria, disponibles para entrega en Melbourne, y experimente una combinación perfecta de capas húmedas de especias y glaseado cremoso de queso crema.",
+      "precio": 2400,
+      "categoria": "Sliced",
+      "img": "https://cakerun.com.au/wp-content/uploads/2022/09/Pre-Sliced-Carrot-Cake-300x225.jpg.webp",
+      "id": 14,
+      "stock": 10
+    },
+    {
+      "titulo": "Pre-Sliced Ferrero Rocher Cake",
+      "descripcion": "Deléitese con la delicia clásica de nuestros pasteles de zanahoria, disponibles para entrega en Melbourne, y experimente una combinación perfecta de capas húmedas de especias y glaseado cremoso de queso crema.",
+      "precio": 2400,
+      "categoria": "Sliced",
+      "img": "https://cakerun.com.au/wp-content/uploads/2022/09/Pre-Sliced-Ferrero-Rocher-Cake-300x225.jpg.webp",
+      "id": 15,
+      "stock": 10
+    },
+    {
+      "titulo": "Escribe aqui un titulo",
+      "descripcion": "Escribe aqui una descripcion",
+      "precio": 0,
+      "stock": 0,
+      "img": "public/Sliced.png",
+      "id": 16
+    }
+  ]
 }

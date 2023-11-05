@@ -7,10 +7,12 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "data": "json-server --watch data/db.json"
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
+    "axios": "^1.6.0",
     "bootstrap": "^5.3.1",
     "bootstrap-icons": "^1.10.5",
     "node-sass": "^9.0.0",

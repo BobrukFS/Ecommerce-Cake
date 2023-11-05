@@ -1,12 +1,22 @@
-import React from "react";
+import React, { useContext, useState } from "react";
+import CarritoContext  from "../../../contexts/CarritoContext";
 
-const Card = ({titulo, descripcion, img, precio, id}) => {
+const Card = ({titulo, descripcion, img, precio, id, producto}) => {
+ 
+  const { agregarCarritoContext } = useContext(CarritoContext)
+
+  const handleAdd = () =>{
+
+    agregarCarritoContext(producto)
+    
+  }
+
   return (
     <>
-      <div className="card z-n1" id={id}>
+      <div className="card" id={id}>
         <img
           src={img}
-          class="card-img-top imagen-card"
+          className="card-img-top imagen-card"
           alt="..."
         />
         <div className="card-body  d-flex flex-column justify-content-between">
@@ -17,10 +27,13 @@ const Card = ({titulo, descripcion, img, precio, id}) => {
             </p>
           </div>
           <div>
-            <p className="text-secondary fw-bold fs-5 m-0 my-1">${precio}</p>
-            <a href="#" class="btn btn-primary">
-              Añadir al carrito
-            </a>
+            <p className="text-secondary fw-bold fs-5 m-0 my-1 precio">${precio}</p>
+            <div className="d-flex gap-2">
+              <btn type="btn" className="btn añadirCarrito text-white fw-bold btn-primary" onClick={handleAdd}>
+                Añadir al carrito
+              </btn>
+            </div>
+          
           </div>
         </div>
       </div>

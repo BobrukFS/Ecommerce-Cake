@@ -27,7 +27,7 @@ function Contact() {
             <input  className="bg-primary px-2 my-2 fs-5 paragraph-font w-100 border-0 border-bottom border-secondary border-1 " type="text" placeholder='Email' name='email'/>
             <textarea  className="bg-white px-2 my-2 fs-5 paragraph-font w-100  border-secondary border-1 rounded-2 " type="text" placeholder='Asunto' name='asunto'/>
             <div>
-                <button onClick={sendEmail} className=" w-100 position-relative bg-primary  align-self-start intro__btn btn1 text-danger border border-danger fw-bold titles-font rounded-4 fs-6">¡Visitar tienda!</button>
+                <button onClick={sendEmail} className=" w-100 position-relative bg-primary  align-self-start intro__btn btn1 text-danger border border-danger fw-bold titles-font rounded-4 fs-6">¡Enviar email!</button>
             </div>
             
         </form>

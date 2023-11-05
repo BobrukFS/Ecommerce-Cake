@@ -5,9 +5,8 @@
         position: fixed;
         background-color: #442c2e;
         min-height: 100vh;
+       
    
-      
-
         a{
 
           color: white;
@@ -15,7 +14,10 @@
         
         &.desplegado{
           transform: translateX(0vw);
+        
         }
+      
+
     }
 }
 
@@ -42,6 +44,19 @@
       left: 0;
       z-index: -1;
       bottom: -.4rem;
+  }
+
+  &-cantidad{
+    position: absolute;
+    bottom: -.5rem;
+    right: -.5rem;
+    background-color:#fe4949;
+    border: 1px solid #ce1313;
+    border-radius: 50%;
+    padding: .2rem .5rem;
+    color: white;
+    font-weight: bold;
+
   }
 }
 
