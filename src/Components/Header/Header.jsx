@@ -16,7 +16,8 @@ function Header() {
     visibleLista ? setVisibleLista(false) : setVisibleLista(true);
   };
   const htmlElement = document.querySelector('html');
-  const abrirMenu = () => {
+  const abrirMenu = (e) => {
+    e.stopPropagation();
     const btn = document.getElementsByClassName("btn1");
     const nav = document.getElementsByClassName("header__nav");
     if (btn[0].classList.contains("not-active")) {
@@ -53,19 +54,19 @@ function Header() {
           <div className="d-flex flex-column align-items-center flex-md-row mx-4">
             <Link
               className=" text-decoration-none mb-4 mb-md-0 mx-md-3 fs-3 paragraph-font"
-              to="/about" onClick={abrirMenu}
+              to="/about" 
             >
               Nosotros
             </Link>
             <Link
               className=" text-decoration-none mb-4 mb-md-0 mx-md-3 fs-3 paragraph-font"
-              to="/contact" onClick={abrirMenu}
+              to="/contact" 
             >
               Contacto
             </Link>
             <Link
               className=" text-decoration-none mb-4 mb-md-0 mx-md-3 fs-3 paragraph-font"
-              to="/tienda" onClick={abrirMenu}
+              to="/tienda" 
             >
               Tienda
             </Link>
@@ -79,7 +80,7 @@ function Header() {
             </Link>
             <Link
               className=" text-decoration-none mb-4 mb-md-0 mx-md-3 fs-4 paragraph-font"
-              to="/login" onClick={abrirMenu}
+              to="/login" 
             >
               Iniciar Sesion
             </Link>
