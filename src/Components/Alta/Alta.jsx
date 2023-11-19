@@ -29,7 +29,7 @@ export const Alta = () => {
         "descripcion" : "Escribe aqui una descripcion",
         "precio" : 0,
         "stock" : 0,
-        "img" : "public/Sliced.png"
+        "img" : "./Sliced.png"
       }
 
       const addProducto = ()=>{
