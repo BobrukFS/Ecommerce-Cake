@@ -29,7 +29,7 @@ export const Alta = () => {
         "descripcion" : "Escribe aqui una descripcion",
         "precio" : 0,
         "stock" : 0,
-        "img" : "./Sliced.png"
+        "img" : "https://cakerun.com.au/wp-content/uploads/2022/09/whole-carrot-cake.webp"
       }
 
       const addProducto = ()=>{
