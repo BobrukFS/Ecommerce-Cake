@@ -7,6 +7,7 @@ export const ProductoEdit = ({ id, setVisible, actualizarProducto }) => {
   const htmlElement = document.querySelector('html');
   const productoFiltrado = productos.filter((e) => e.id == id);
   const [titulo, setTitulo] = useState(undefined);
+  const [imagen, setImagen] = useState(undefined)
   const [descripcion, setDescripcion] = useState(undefined);
   const [precio, setPrecio] = useState(undefined);
   const [stock, setStock] = useState(undefined);
@@ -22,6 +23,7 @@ export const ProductoEdit = ({ id, setVisible, actualizarProducto }) => {
     const objetoAGuardar = Object.assign({}, productoFiltrado[0], {
       "titulo" : titulo ||  productoFiltrado[0].titulo ,
       "descripcion" : descripcion  || productoFiltrado[0].descripcion ,
+      "img" : imagen || productoFiltrado[0].img,
       "precio" :  precio  || productoFiltrado[0].precio ,
       "stock" : stock || productoFiltrado[0].stock  
     })
@@ -52,6 +54,7 @@ export const ProductoEdit = ({ id, setVisible, actualizarProducto }) => {
               <i class="bi bi-x align-self-end fs-5"></i>
               <input onChange={(e) => setTitulo(e.target.value)}   onClick={(e) => e.stopPropagation()} className="titles-font fs-5 text-secondary px-2 border rounded-2 border-secondary" type="text" defaultValue={e.titulo} />
               <textarea onChange={(e) => setDescripcion(e.target.value)}  onClick={(e) => e.stopPropagation()} className="paragraph-font text-secondary px-2 rounded-2 border-secondary" type="text" defaultValue={e.descripcion} />
+              <input onChange={(e) => setImagen(e.target.value)}   onClick={(e) => e.stopPropagation()} className="titles-font fs-5 text-secondary px-2 border rounded-2 border-secondary" type="text" defaultValue={e.img} />
               <div className="d-flex flex-column gap-2">
 
               <div className="d-flex align-items-center gap-1">

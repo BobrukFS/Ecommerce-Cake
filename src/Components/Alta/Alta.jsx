@@ -3,12 +3,14 @@ import { ProductoAlta } from './ProductoAlta/ProductoAlta'
 import ProductosContext from '../../contexts/ProductosContext'
 import Categorias from '../Tienda/Categorias/Categorias'
 import { ProductoEdit } from './ProductoEdit/ProductoEdit'
+import ThemeContext from '../../contexts/ThemeContext'
 export const Alta = () => {
     const { productos, crearProductoContext, eliminarProductoContext, actualizarProductoContext } = useContext(ProductosContext)
     const [categoriaSeleccionada, setCategoriaSeleccionada] = useState("Todos");
     const [productosSinFiltrar, setProductosSinFiltrar] = useState([]);
     const [id, setId] = useState(0);
     const [visible, setVisible] = useState(false);
+    const {theme} = useContext(ThemeContext)
     useEffect(() => {
       if (productos) {
         setProductosSinFiltrar(productos);
@@ -43,8 +45,8 @@ export const Alta = () => {
       }
 
   return (<div>
-    <div className='catalogo py-5 px-4 z-4'>
-      <h2 className='fs-1 text-secondary titles-font px-5 fw-bold'>Catalogo de productos</h2>
+    <div className={`catalogo py-5 px-4 z-4 ${theme === 'light' ? 'bg-white' : 'bg-secondary'}`}>
+      <h2 className={`fs-1 text-secondary titles-font px-5 fw-bold ${theme === 'light' ? 'text-secondary' : 'text-white'}`}>Catalogo de productos</h2>
       <div className='d-flex flex-column flex-sm-row'>
     
       <div className="col-sm-2 d-md-flex flex-column align-items-center">

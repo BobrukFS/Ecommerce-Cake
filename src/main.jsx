@@ -1,6 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter as Router, Routes, Route, HashRouter } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  HashRouter,
+} from "react-router-dom";
 import Footer from "./Components/Footer/Footer";
 import "bootstrap/dist/css/bootstrap.css";
 import "./Styles/_custom-bootstrap.scss";
@@ -16,30 +21,30 @@ import { Carrito } from "./Components/Carrito/Carrito";
 import { Login } from "./Components/Login/Login";
 import { Alta } from "./Components/Alta/Alta";
 import { ProductoEdit } from "./Components/Alta/ProductoEdit/ProductoEdit";
+import { ThemeProvider} from "./contexts/ThemeContext";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-     <ProductosProvider>
-      <CarritoProvider>
-      
-    <HashRouter>
-      
-      <Header></Header>
- 
-        <Routes>
-          <Route path="/" element={<Intro />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/Contact" element={<Contact />} />
-          <Route path="/tienda" element={<Tienda />} />
-          <Route path="/carrito" element={<Carrito />} />
-          <Route path="/login" element={<Login/>}/>
-          <Route path="/alta" element={<Alta/>}/>
-        </Routes>
-    
-      <Footer></Footer>
-    </HashRouter>
-    
-    </CarritoProvider>
-    </ProductosProvider>
+    <ThemeProvider>
+      <ProductosProvider>
+        <CarritoProvider>
+          <HashRouter>
+            <Header></Header>
+
+            <Routes>
+              <Route path="/" element={<Intro />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/Contact" element={<Contact />} />
+              <Route path="/tienda" element={<Tienda />} />
+              <Route path="/carrito" element={<Carrito />} />
+              <Route path="/login" element={<Login />} />
+              <Route path="/alta" element={<Alta />} />
+            </Routes>
+
+            <Footer></Footer>
+          </HashRouter>
+        </CarritoProvider>
+      </ProductosProvider>
+    </ThemeProvider>
   </React.StrictMode>
 );

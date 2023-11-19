@@ -1,13 +1,15 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import {Link} from 'react-router-dom';
-
+import ThemeContext from "../../contexts/ThemeContext";
 function Intro() {
+
+  const {theme} = useContext(ThemeContext)
     return (
       <div className="intro container-fluid">
         <div className='row vh-100  intro__container d-flex flex-column align-items-center justify-content-between flex-lg-row'>
        
           
-          <div className=' bg-primary  h-50 px-4 py-2 col-lg-5 h-lg-100 d-flex flex-column justify-content-center align-items-center px-lg-5'>
+          <div className={` ${theme === 'light' ? 'bg-primary' : 'bg-secondary'}  h-50 px-4 py-2 col-lg-5 h-lg-100 d-flex flex-column justify-content-center align-items-center px-lg-5`}>
             <div className='intro__desc'>
             <h1 className='text-white titles-font fs-1 position-relative'>Elevamos el sabor a nuevas<span className='intro__cursiva text-terciary cursiva position-absolute'>Alturas</span></h1>
             <p className='text-white paragraph-font mt-2 mb-4'>Pasteleria lider grastronomica hace mas de 10 años en el mercado.</p>

@@ -5,11 +5,12 @@ import { useEffect } from "react";
 import { useState } from "react";
 import useFetch from "../../hooks/useFetch";
 import ProductosContext from '../../contexts/ProductosContext';
+import ThemeContext from "../../contexts/ThemeContext";
 function Tienda() {
   const [categoriaSeleccionada, setCategoriaSeleccionada] = useState("Todos");
   const [productosSinFiltrar, setProductosSinFiltrar] = useState([]);
   const { productos } = useContext(ProductosContext)
-
+  const {theme} = useContext(ThemeContext)
   useEffect(() => {
     if (productos) {
       setProductosSinFiltrar(productos);
@@ -25,7 +26,7 @@ function Tienda() {
 
   return (
     <>
-      <div className="tienda row d-flex flex-column justify-content-start align-items-center">
+      <div className={`tienda ${theme === 'light' ? 'bg-white' : 'bg-secondary'} row d-flex flex-column justify-content-start align-items-center`}>
         <div className="bg-secondary d-flex py-2  justify-content-center align-items-center gap-4">
           <p className="fs-4 text-white m-0 titles-font text-center ">Hacemos envios en todo el pais    <i class="bi bi-truck text-white fs-3"></i></p>          
         </div>

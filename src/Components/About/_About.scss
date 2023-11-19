@@ -45,12 +45,12 @@
 
 @media (min-width: 768px) { 
     .about{
-        height: calc(100vh - 90px);
+        min-height: calc(100vh - 90px);
         &__main{
             justify-content: center;
     
             margin-top: 220px;
-            height: calc(100vh - 220px - 90px - 24px);
+            min-height: calc(100vh - 220px - 90px - 24px);
           }
 
           &__img{
