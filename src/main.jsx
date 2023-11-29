@@ -26,8 +26,8 @@ import formbricks from "@formbricks/js";
 
 if (typeof window !== "undefined") {
   formbricks.init({
-    environmentId: "clpjsltk63yzjqg724r2ab15m",
-    apiHost: "https://app.formbricks.com",
+    environmentId: "clpjr6eg00005qo01jrgz1m14",
+    apiHost: "http://inferquestqas.seidoranalytics.com",
     debug: true, // remove when in production 
   });
 }
