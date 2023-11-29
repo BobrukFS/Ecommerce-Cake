@@ -24,13 +24,7 @@ import { ProductoEdit } from "./Components/Alta/ProductoEdit/ProductoEdit";
 import { ThemeProvider} from "./contexts/ThemeContext";
 import formbricks from "@formbricks/js";
 
-if (typeof window !== "undefined") {
-  formbricks.init({
-    environmentId: "clpjr6eg00005qo01jrgz1m14",
-    apiHost: "http://inferquestqas.seidoranalytics.com",
-    debug: true, // remove when in production 
-  });
-}
+
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
