@@ -22,6 +22,15 @@ import { Login } from "./Components/Login/Login";
 import { Alta } from "./Components/Alta/Alta";
 import { ProductoEdit } from "./Components/Alta/ProductoEdit/ProductoEdit";
 import { ThemeProvider} from "./contexts/ThemeContext";
+import formbricks from "@formbricks/js";
+
+if (typeof window !== "undefined") {
+  formbricks.init({
+    environmentId: "clpjsltk63yzjqg724r2ab15m",
+    apiHost: "https://app.formbricks.com",
+    debug: true, // remove when in production 
+  });
+}
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
